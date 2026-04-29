@@ -314,15 +314,48 @@ sns.countplot(x='Exercise', hue='Stroke', data=df)
 
 </div>
 
-The Power BI dashboard provides an at-a-glance executive view of the entire dataset with the following components:
+The Power BI dashboard provides an at-a-glance executive view of the entire dataset with 5 interactive filters and 5 chart panels.
 
-| Component | Description |
+### 📸 Dashboard Preview
+
+<div align="center">
+
+![Healthcare Disease Risk Analytics Dashboard](images/dashboard_preview.png)
+
+</div>
+
+### 📊 Live KPIs
+
+| KPI | Value | Insight |
+|:---|:---:|:---|
+| 👥 **Total Patients** | **1,000** | Full cohort size |
+| 📅 **Average Age** | **52.88** | Middle-to-senior dominant cohort |
+| ⚖️ **Average BMI** | **29.21** | Borderline overweight across population |
+| ❤️ **Heart Disease Cases** | **253** | Highest disease burden — 25.3% of patients |
+| 🩸 **Diabetes Cases** | **186** | Second most prevalent — 18.6% |
+| 🧠 **Stroke Cases** | **134** | 13.4% of all patients |
+| 🫁 **COPD Cases** | **101** | 10.1% — heavily lifestyle-linked |
+| 🎗️ **Avg Cancer Rate** | **0.10** | 10% cancer incidence across cohort |
+
+### 🎛️ Interactive Filters
+
+| Filter | Options |
 |:---|:---|
-| 🃏 **KPI Cards** | Total Patients, Disease Prevalence %, Avg BMI, Avg Age |
-| 🔘 **Interactive Filters** | Slice by Gender, Age Group, Smoking Status, Exercise |
-| 🥧 **Disease Distribution Chart** | % breakdown of Heart Disease / Diabetes / Stroke / Cancer |
-| 📊 **Lifestyle Impact Chart** | Grouped bars for smoking, alcohol, exercise vs each disease |
-| 📈 **Age Group Analysis** | Disease incidence rate plotted across Young/Adult/Senior/Old |
+| 👤 Gender | Male / Female |
+| 📅 Age Group | Young / Adult / Senior / Old |
+| 🏃 Exercise | Yes / No |
+| 🚬 Smoking | Yes / No |
+| 🧬 Family History | Yes / No |
+
+### 📈 Chart-by-Chart Analysis
+
+| Chart | Visualization | Key Finding |
+|:---|:---|:---|
+| 🍩 **Cholesterol Distribution** | Donut Chart | **51.4% High** vs 48.6% Normal — nearly half the cohort at cholesterol risk |
+| 📊 **Kidney Disease by Age Group** | Stacked Bar | Adult group highest (283 pts, 43 with KD); Young group lowest overall exposure |
+| 📊 **Heart Disease by Age Group** | Grouped Bar | Adults carry heaviest burden (76/283 with HD); risk persists across all age groups |
+| 📉 **Age & Gender Distribution** | Dual Line Chart | Both genders peak at ages 62–65; male slightly higher across most age bands |
+| 🟥 **Diabetes × Blood Pressure × Family History** | Matrix Heatmap | Normal BP + Family History = **195 Yes** (highest risk combo); High BP alone = 179 No-family-history cases — BP is a strong independent trigger |
 
 ---
 
@@ -360,7 +393,7 @@ Healthcare-Analytics-Project/
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Healthcare-Analytics-Project.git
+git clone https://github.com/alam292/Healthcare-Analytics-Project.git
 cd Healthcare-Analytics-Project
 ```
 
@@ -420,12 +453,12 @@ Version 3.0  📌  Real-Time Patient Data via API + Cloud Deployment (Azure/AWS)
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/your-id?v=4" width="100" style="border-radius:50%" alt="Author"/>
+<img src="https://avatars.githubusercontent.com/alam292?v=4" width="100" style="border-radius:50%" alt="Author"/>
 
 ### **Md Matloob Alam**
 
-[![GitHub](https://img.shields.io/badge/GitHub-@your--username-181717?style=for-the-badge&logo=github)](https://github.com/your-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-@alam292-181717?style=for-the-badge&logo=github)](https://github.com/alam292)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/md-matloob-a-016408229/)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
 *Data Analyst passionate about transforming healthcare data into actionable insights.*
@@ -440,8 +473,8 @@ Version 3.0  📌  Real-Time Patient Data via API + Cloud Deployment (Azure/AWS)
 
 **Give it a star on GitHub and share it with your network!**
 
-[![Star](https://img.shields.io/github/stars/your-username/Healthcare-Analytics-Project?style=social)](https://github.com/your-username/Healthcare-Analytics-Project)
-[![Fork](https://img.shields.io/github/forks/your-username/Healthcare-Analytics-Project?style=social)](https://github.com/your-username/Healthcare-Analytics-Project/fork)
+[![Star](https://img.shields.io/github/stars/alam292/Healthcare-Analytics-Project?style=social)](https://github.com/alam292/Healthcare-Analytics-Project)
+[![Fork](https://img.shields.io/github/forks/alam292/Healthcare-Analytics-Project?style=social)](https://github.com/alam292/Healthcare-Analytics-Project/fork)
 
 <br/>
 
